@@ -11,30 +11,28 @@ body {
 
 #arrow-buttons {
     display: grid;
-    grid-template-rows: 50px 50px 50px; /* Kolme riviä */
-    grid-template-columns: 50px 50px 50px; /* Kolme saraketta */
+    grid-template-rows: 50px 50px 50px; 
+    grid-template-columns: 50px 50px 50px; 
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Väli painikkeiden välillä */
+    gap: 10px;
     margin: 20px auto;
     width: max-content;
 }
 
-/* Aseta painikkeet oikeille paikoille */
-#arrow-buttons button:nth-child(1) { grid-column: 2; grid-row: 1; } /* UP */
-#arrow-buttons button:nth-child(2) { grid-column: 1; grid-row: 2; } /* LEFT */
-#arrow-buttons button:nth-child(3) { grid-column: 3; grid-row: 2; } /* RIGHT */
-#arrow-buttons button:nth-child(4) { grid-column: 2; grid-row: 3; } /* DOWN */
+#arrow-buttons button:nth-child(1) { grid-column: 2; grid-row: 1; } 
+#arrow-buttons button:nth-child(2) { grid-column: 1; grid-row: 2; } 
+#arrow-buttons button:nth-child(3) { grid-column: 3; grid-row: 2; } 
+#arrow-buttons button:nth-child(4) { grid-column: 2; grid-row: 3; } 
 
 
-/* Yksittäiset painikkeet */
 #arrow-buttons button {
     width: 50px;
     height: 50px;
     border-radius: 8px;
-    background-color: #007bff; /* Sininen tausta */
-    color: #fff; /* Valkoinen teksti */
-    font-size: 20px; /* Suurempi teksti nuolille */
+    background-color: #007bff; 
+    color: #fff; 
+    font-size: 20px; 
     border: none;
     cursor: pointer;
     display: flex;
@@ -43,11 +41,9 @@ body {
     transition: background-color 0.3s;
 }
 
-/* Hover-efekti painikkeille */
 #arrow-buttons button:hover {
-    background-color: #0056b3; /* Tummempi sininen hover-tilassa */
+    background-color: #0056b3; 
 }
-
 
 #lost {
     position: absolute;
@@ -78,7 +74,6 @@ body {
     bottom: 20px; 
     right: 20px;
 }
-
 
 div {
   padding-top: 10px;
