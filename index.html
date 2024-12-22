@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <h1>Guide the troll to the cabin!</h1>
+  <div id="goal"></div>
+  
+  <div id="arrow-buttons">
+    <button type="button" name="up" onclick="pos(0,-1);">↑</button>
+    <button type="button" name="left" onclick="pos(-1,0);">←</button>
+    <button type="button" name="right" onclick="pos(1,0);">→</button>
+    <button type="button" name="down" onclick="pos(0,1);">↓</button>
+    <button type="button" name="hide" onclick="hideBall();">H</button> <!-- Hides the square -->
+    <button type="button" name="show" onclick="showBall();">S</button> <!-- Shows the square -->
+</div>
+
+  <h3>..and win a trip to a lakeside view! </h3>
+ 
+  <div id="lost">
+      <h2></h2>
+  </div>
+</body>
+</html>
